@@ -1,0 +1,64 @@
+h1
+{
+    text-align: center;
+}
+
+#area
+{
+    position: relative;
+    left: 37%;
+    top: 10em;
+    width: 320px;
+    height: 270px;
+}
+
+#area #formulario
+{
+    position: absolute;
+    display: block;
+}
+fieldset
+{
+    background-color: #A7C0DC;
+    width: 400px;
+    height: 250px;
+}
+
+legend
+{
+    font-weight: bold;
+    font-family: "Segoe UI", "Arial", "Verdana";
+}
+#formulario label
+{
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+}
+
+#formulario input.nome
+{
+    background-color:#adadad;
+    position: absolute;
+    left: 95px;
+    top: 40px;
+    width: 225px;
+}
+
+#formulario input.email
+{
+    background-color: #adadad;
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
+}
+
+#formulario input.submit
+{
+    border-style: dashed;
+    position: absolute;
+    bottom: 0.5em;
+    right: 10px;
+    background-color: #adadad;
+}
