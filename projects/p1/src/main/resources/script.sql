@@ -1,4 +1,4 @@
-create database pw3;
+create database if not exists pw3;
 use pw3;
 CREATE TABLE users
 (

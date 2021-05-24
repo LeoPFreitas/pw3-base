@@ -48,7 +48,7 @@ public class Login extends HttpServlet {
             }
         }, () -> {
             try {
-                resp.sendRedirect("error.jsp");
+                resp.sendRedirect("login.jsp");
             } catch (IOException e) {
                 e.printStackTrace();
             }
